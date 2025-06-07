@@ -1,15 +1,8 @@
-import { Route, Routes } from 'react-router-dom';
-import Home from './pages/Home';
-import Library from './pages/Library';
-import Profile from './pages/Profile';
-
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/my-library" element={<Library />} />
-      <Route path="/my-profile" element={<Profile />} />
-    </Routes>
+    <div>
+      <h1 className="text-sm">안녕하세요</h1>
+    </div>
   );
 };
 
